@@ -1,0 +1,1 @@
+python preprocess.py -train_src ../data/rcv1/RCV1-V2/text_train -train_tgt ../data/rcv1/RCV1-V2/label_train -valid_src ../data/rcv1/RCV1-V2/text_val -valid_tgt ../data/rcv1/RCV1-V2/label_val -test_src ../data/rcv1/RCV1-V2/text_test -test_tgt ../data/rcv1/RCV1-V2/label_test -save_data ../data/rcv1/RCV1-V2/train_valid_test.pt -max_seq_len 300 

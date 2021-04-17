@@ -1,0 +1,3 @@
+#！-lr 0.0002  -test_only -load_pretrained 1>results/train.log 2>&1
+# CUDA_VISIBLE_DEVICES=0          python3      main.py -dataset mosei -batch_size 8 -d_model 512 -d_inner_hid 512 -n_layers_enc 2 -n_layers_dec 2 -n_head 4 -epoch 50 -dropout 0.2 -dec_dropout 0.2 -lr 0.00001 -encoder 'graph' -decoder 'graph' -label_mask 'prior' -accum_count 8
+CUDA_VISIBLE_DEVICES=1  nohup     python3 -u   main.py -dataset mosei -batch_size 8 -d_model 512 -d_inner_hid 512 -n_layers_enc 3 -n_layers_dec 3 -n_head 8 -epoch 50 -dropout 0.2 -dec_dropout 0.2 -lr 0.00001 -encoder 'graph' -decoder 'graph' -label_mask 'prior' -accum_count 8 1>results/train_n_ly_3.log 2>&1
