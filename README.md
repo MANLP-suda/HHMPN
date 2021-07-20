@@ -9,5 +9,5 @@ or wait the data unloaded. The another dataset also will be unloaded soon.
 #
 [mosei](https://pan.baidu.com/s/1cD7VMEGJYXdIWG5bkdKVSw) code:kbki
 
-[NEMu](https://pan.baidu.com/s/1tHr--TFISUVz_SOLOjYTxg) code:d7su
+[NEMu](https://pan.baidu.com/s/1tHr--TFISUVz_SOLOjYTxg) code:d7su   detailed information in [github](https://github.com/MANLP-suda/Data-set)
 
