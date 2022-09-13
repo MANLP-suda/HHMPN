@@ -155,10 +155,7 @@ class GraphEncoder(nn.Module):
         """
         feature,_=self.mult(enc_text_input,enc_visual_input,enc_audio_input)
         (enc_text_output,enc_visual_output,enc_audio_output)=feature
-        # enc_text_output = self.align_text(enc_text_input)
-        # enc_visual_output = self.align_visual(enc_visual_input)
-        # enc_audio_output = self.align_audio(enc_audio_input)
-
+       
         if return_attns:
             return enc_com_output,enc_com_slf_attns,enc_lyr_output,enc_lyr_slf_attns
         else:
